@@ -31,18 +31,6 @@ class HogsContainer extends React.Component {
         this.setState({ showDetails: !this.state.showDetails })
     }
 
-    // componentDid() {
-    //     console.log(this.props.greased)
-    //     if(this.props.greased){
-    //         const greasedPigs = this.state.hogs.filter(hogs => {
-    //             return hogs.greased
-    //         })
-    //         this.setState({
-    //             hogs: greasedPigs
-    //         })
-    //     }
-    // }
-
     render(){
 
         return (

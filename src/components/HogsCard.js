@@ -28,8 +28,6 @@ class HogsCard extends React.Component {
                     {this.props.hog.greased ? 'Greased' : ''}
                     </div>
                 </div>
-                {/* <div className="extra content">                    
-                </div> */}
             </div>
             </div>
         )
